@@ -1,4 +1,5 @@
-
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 /*-------------------HEADER---------------------------*/
 
@@ -7,6 +8,7 @@ header{
     display: flex;
     height: 50%;
     width: 100%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .logo{
@@ -21,6 +23,7 @@ header{
     color: #E5F6ED;
     display: flex;
     flex-wrap: nowrap;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .carrusel{
@@ -49,9 +52,9 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #2cb170;
   }
@@ -70,12 +73,41 @@ body{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin: 10px;
     
+}
+
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: #0A1B13;
+}
+
+h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 .tarjind{
     width: 35%;
     height: auto;
+    
+}
+
+.tarjind:hover{
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+}
+
+.fondo{
+    background-color: #CAECDB;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
 }
 /*-------------FIN DEL BODY----------------------*/
 
