@@ -13,22 +13,28 @@ header{
 
 .logo{
     display: flex;
-    width: 50%;
-    align-items: center;
+    width: 60%;
+    height: 80%;
     justify-content: center;
+}
+
+.logonombre{
+    display: flex;
+    justify-content: space-around;
 }
 
 
 .brand{
     color: #E5F6ED;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     font-family: 'Noto Sans', sans-serif;
 }
 
 .carrusel{
     display: flex;
     width: 66%;
+    flex-wrap: nowrap;
 }
 
 /*------------------FIN DEL HEADER---------------------*/
