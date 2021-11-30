@@ -18,6 +18,10 @@ header{
     justify-content: center;
 }
 
+.logo:hover{
+    
+}
+
 .logonombre{
     display: flex;
     justify-content: space-around;
@@ -123,3 +127,37 @@ footer{
 }
 
 /*---------------------FIN DEL FOOTER----------------*/
+
+
+/*------------------------------------------------------------------------*/
+
+.footerdef{
+    background-color: #050E09;
+}
+
+.centradofoot{
+    display: flex;
+    justify-content: center;
+    color: #256447;
+}
+
+.flexcont{
+    justify-content: center;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+}
+
+footer div ul li a img{
+    width: 8vw;
+    height: 8vw;
+    background-color: #050E09;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #6BC89C;
+}
